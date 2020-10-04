@@ -1,5 +1,7 @@
 # Livre_2018a_English
 Book 2018a English
+
+
 Engineers are at the heart of the design process of complex systems and must meet the challenges of competitiveness, innovation and performance on a daily basis.  This cannot be done without integrating structured industrial processes, nor without mastery of modern modeling and simulation tools. At each stage of the design cycle, the methods used must enable the lowering of costs, a reduction in the risk of error and a minimizing of the impact of errors. 
 At the heart of this process, digital modeling and simulation play a major role in allowing engineers to anticipate, understand and verify the analyses that they conduct throughout a project.
 
