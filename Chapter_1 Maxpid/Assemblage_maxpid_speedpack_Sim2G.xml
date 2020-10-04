@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/25/15||15:41:55" using="SimMechanics Link Version 4.6" from="SolidWorks 20.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assemblage_maxpid_speedpack" uid="Assemblage_maxpid_speedpack" version="192">
+<AssemblyFile name="Assemblage_maxpid_speedpack.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Assem vis speedpack-1" uid="Assem vis speedpack-1" entityUid="Assem vis speedpack" rigid="true">
+<Transform>
+<Rotation>0.88234729120598732 0.4536625233813199 0.1251142381216053 -0.4705988288356191 0.85059263665741303 0.23458241358365653 2.3475382959305417e-015 -0.26586177112079024 0.96401116106428808</Rotation>
+<Translation>0.061676206359326871 0.01112477403626903 0.0017799374041447161</Translation>
+</Transform>
+</Instance>
+<Instance name="Bati Maxpid speedpack-1" uid="Bati Maxpid speedpack-1" grounded="true" entityUid="Bati Maxpid speedpack" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1016754379525298 -0.052876666679614048 0.0027799374041434406</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem bras sppedpack-1" uid="Assem bras sppedpack-1" entityUid="Assem bras sppedpack" rigid="true">
+<Transform>
+<Rotation>0 1 -1.0031041830649878e-015 -1 0 -5.1710179988200263e-015 -5.1710183572508226e-015 1.0031041760593326e-015 1</Rotation>
+<Translation>0.20217543795253279 0.068623333320391652 0.029779937404145015</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou a billes speedpack-1" uid="Ecrou a billes speedpack-1" entityUid="Ecrou a billes speedpack" rigid="true">
+<Transform>
+<Rotation>1.1006442843486617e-015 0.47059882883561804 0.8823472912059882 5.3164701081558698e-015 0.8823472912059882 -0.47059882883561804 -1 5.2089350752783179e-015 -1.5307743600843415e-015</Rotation>
+<Translation>0.16579318671082441 -0.04440588776056914 0.0017799374041445246</Translation>
+</Transform>
+</Instance>
+<Instance name="Stator Moteur Support speedpack-1" uid="Stator Moteur Support speedpack-1" entityUid="Stator Moteur Support speedpack" rigid="true">
+<Transform>
+<Rotation>0.8823472912059882 0.38072245006096078 0.27661105133568709 -0.4705988288356176 0.71383395352634527 0.51863072517109166 -1.5481215948441054e-015 -0.58778525229247336 0.80901699437494712</Rotation>
+<Translation>0.049323344282442935 0.017713157639967489 0.0017799374041449366</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coïncidente5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem bras sppedpack-1</Uid>
+</InstancePath>
+<Position>0.1215 -0.10050000000000001 0.0020000000000000052</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bati Maxpid speedpack-1</Uid>
+</InstancePath>
+<Position>0 0 -0.044999999999999984</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem vis speedpack-1</Uid>
+</InstancePath>
+<Position>-0.12923006150390301 0 0</Position>
+<Axis>1 -2.3387285279737736e-016 -1.0222540027352897e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stator Moteur Support speedpack-1</Uid>
+</InstancePath>
+<Position>-0.005000000000000001 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Coaxiale2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bati Maxpid speedpack-1</Uid>
+</InstancePath>
+<Position>-0.070000000000000034 0.079999999999999974 -0.033000000000000022</Position>
+<Axis>4.1079678593645622e-016 -2.8398768682371312e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Stator Moteur Support speedpack-1</Uid>
+</InstancePath>
+<Position>-0.019999999999999997 0.013517409575686996 -0.018608590557290999</Position>
+<Axis>1.3081785291832191e-016 0.58778525229248257 -0.80901699437494046</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bati Maxpid speedpack-1</Uid>
+</InstancePath>
+<Position>-0.052326989240685996 0.037999999999999999 -0.024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stator Moteur Support speedpack-1</Uid>
+</InstancePath>
+<Position>-0.0029999999999999957 0.021445776120561987 -0.012848295084824997</Position>
+<Axis>0 0.58778525229247824 -0.80901699437494357</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem bras sppedpack-1</Uid>
+</InstancePath>
+<Position>0.12149999999999998 -0.02049999999999999 -0.0069999999999999958</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ecrou a billes speedpack-1</Uid>
+</InstancePath>
+<Position>0.020999999999999998 0 0.017999999999999988</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem bras sppedpack-1</Uid>
+</InstancePath>
+<Position>0.13950000000000001 -0.0024999999999999745 -0.0069999999999999993</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ecrou a billes speedpack-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000005 -0.012092069804279751 0.010666389167100138</Position>
+<Axis>-1 0 1.8809849718917787e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem vis speedpack-1</Uid>
+</InstancePath>
+<Position>0.17499999999999993 0 0</Position>
+<Axis>-1 -2.4053758268835991e-015 3.3769404978629292e-015</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ecrou a billes speedpack-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem vis speedpack-1</Uid>
+</InstancePath>
+<Position>-0.0019999999999999601 0.012281732240917637 -0.0033405169004826017</Position>
+<Axis>1 -9.2722175128272509e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stator Moteur Support speedpack-1</Uid>
+</InstancePath>
+<Position>0.011999999999999997 -0.0033184761312370949 -0.020952033700010992</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Assem vis speedpack" uid="Assem vis speedpack" version="394">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem vis speedpack.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Bati Maxpid speedpack" uid="Bati Maxpid speedpack" version="354">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Bati Maxpid speedpack.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem bras sppedpack" uid="Assem bras sppedpack" version="358">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem bras sppedpack.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Ecrou a billes speedpack" uid="Ecrou a billes speedpack" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Ecrou a billes speedpack.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Stator Moteur Support speedpack" uid="Stator Moteur Support speedpack" version="296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Stator Moteur Support speedpack.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+</Parts>
+</SimMechanicsImportXML>

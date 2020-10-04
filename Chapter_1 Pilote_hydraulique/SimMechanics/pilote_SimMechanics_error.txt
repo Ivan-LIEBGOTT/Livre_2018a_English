@@ -1,0 +1,8 @@
+Constrained Instances: 'Unknown', 'Unknown'
+Constraint Name: Sur place1
+Error Details: Unsupported mate type. The mate has been ignored.
+---------------------------------------------------------------------------------
+Constrained Parts: demicoussinet-2, Fond V2H40-1
+Constrain Name: Coaxiale4
+Error Details: Unsupported geometry type for one or more constrained parts. A weld joint has been added between the constrained parts.
+---------------------------------------------------------------------------------

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/25/15||09:50:52" using="SimMechanics Link Version 4.6" from="SolidWorks 20.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="MAXPID_Assemblage_Simmechanics" uid="MAXPID_Assemblage_Simmechanics" version="222">
+<AssemblyFile name="MAXPID_Assemblage_Simmechanics.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Bati Maxpid-1" uid="Bati Maxpid-1" grounded="true" entityUid="Bati Maxpid" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.067533462006919814 -0.0018653887646928012 0.052203690308249305</Translation>
+</Transform>
+<Instance name="BagueIna30-1" uid="BagueIna30-1" entityUid="BagueIna30*:*Défaut">
+<Transform>
+<Rotation>0.74824158606178515 -0.66342635528575777 0 0.66342635528575777 0.74824158606178515 0 0 0 1</Rotation>
+<Translation>0 0 0.03172310587514738</Translation>
+</Transform>
+</Instance>
+<Instance name="Chaise-2" uid="Chaise-2" entityUid="Chaise*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.53333333333333333" g="0.53333333333333333" b="0.53333333333333333" a="1"/>
+<Diffuse r="0.53333333333333333" g="0.53333333333333333" b="0.53333333333333333" a="1"/>
+<Specular r="0.53333333333333333" g="0.53333333333333333" b="0.53333333333333333" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="BagueIna30-2" uid="BagueIna30-2" entityUid="BagueIna30*:*Défaut">
+<Transform>
+<Rotation>0.99300157253228227 0.11810113017416266 0 0.11810113017416264 -0.99300157253228238 0 0 0 -1</Rotation>
+<Translation>0 0 -0.032000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="AxeArticulation-1" uid="AxeArticulation-1" entityUid="AxeArticulation*:*Défaut">
+<Transform>
+<Rotation>-0.9991784628572995 0.040526526647668627 4.1079678593645622e-016 -0.040526526647668627 -0.9991784628572995 -2.8398768682371312e-016 3.9895026656103657e-016 -3.0040254728294842e-016 1</Rotation>
+<Translation>-0.070000000000000034 0.079999999999999974 -0.033000000000000022</Translation>
+</Transform>
+</Instance>
+<Instance name="AxeArticulation-2" uid="AxeArticulation-2" entityUid="AxeArticulation*:*Défaut">
+<Transform>
+<Rotation>0.99997269782690679 -0.0073894249287670697 0 -0.0073894249287670697 -0.99997269782690679 1.362852457940705e-016 0 -1.3690793687304049e-016 -1</Rotation>
+<Translation>-0.069999999999999979 0.079999999999999988 0.033000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="AxeBras-1" uid="AxeBras-1" entityUid="AxeBras*:*Défaut">
+<Transform>
+<Rotation>0 0.25083131426729149 0.96803081138099267 0 -0.96803081138099289 0.25083131426729155 1 0 0</Rotation>
+<Translation>0 0 0.049000000000000023</Translation>
+</Transform>
+</Instance>
+<Instance name="VisChcM4-1" uid="VisChcM4-1" entityUid="VisChcM4*:*Défaut">
+<Transform>
+<Rotation>0.99944822625960039 -0.033215102386394836 0 0.033215102386394836 0.99944822625960039 0 0 0 1</Rotation>
+<Translation>-0.070081283674216427 0.069000300323904015 0.036000000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="VisChcM4-2" uid="VisChcM4-2" entityUid="VisChcM4*:*Défaut">
+<Transform>
+<Rotation>0.72011814866696755 0.69385146246185814 -2.91907882414566e-016 0.69385146246185803 -0.72011814866696766 4.9251916564227449e-016 1.3048373145863046e-016 -5.7110349435673946e-016 -1</Rotation>
+<Translation>-0.069554208206875662 0.069009036908569674 -0.036000000000000039</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem bras-1" uid="Assem bras-1" entityUid="Assem bras" rigid="true">
+<Transform>
+<Rotation>0.67411752954391413 0.73862409679187291 0 -0.73862409679187291 0.67411752954391413 0 0 0 1</Rotation>
+<Translation>-0.075207020118922011 0.15562625071468378 0.080203690308249295</Translation>
+</Transform>
+<Instance name="Bras-1" uid="Bras-1" grounded="true" entityUid="Bras*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.76862745098039209" g="0.84313725490196079" b="0.85098039215686272" a="1"/>
+<Diffuse r="0.76862745098039209" g="0.84313725490196079" b="0.85098039215686272" a="1"/>
+<Specular r="0.76862745098039209" g="0.84313725490196079" b="0.85098039215686272" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Poids-1" uid="Poids-1" entityUid="Poids*:*Défaut">
+<Transform>
+<Rotation>0.92622773092433186 -2.2759572004815709e-015 -0.37696444191297818 2.1763671717376847e-015 1 -9.1559968295156014e-016 0.37696444191297818 0 0.92622773092433197</Rotation>
+<Translation>0.12149999999999989 0.14750000000000002 -0.028000000000000018</Translation>
+</Transform>
+</Instance>
+<Instance name="Poids-2" uid="Poids-2" entityUid="Poids*:*Défaut">
+<Transform>
+<Rotation>0.42713696155809822 -2.2759572004815709e-015 0.90418693646331549 7.4973466470484296e-016 1 2.2889110659313076e-015 -0.90418693646331549 -2.37645525111161e-016 0.42713696155809822</Rotation>
+<Translation>0.12149999999999994 0.12350000000000011 -0.028000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="AxePoidsVersion95-1" uid="AxePoidsVersion95-1" entityUid="AxePoidsVersion95*:*Défaut">
+<Transform>
+<Rotation>0.87730591769710897 -2.3314683517128287e-015 0.47993158551363668 2.0948687685411373e-015 1 1.0258069488273884e-015 -0.47993158551363668 1.3955987083776877e-016 0.87730591769710897</Rotation>
+<Translation>0.12514427673825865 0.13649999999999995 -0.02999360733555069</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.82352941176470584" b="0.83921568627450982" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.82352941176470584" b="0.83921568627450982" a="1"/>
+<Specular r="0.74509803921568629" g="0.82352941176470584" b="0.83921568627450982" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="EcrouSerragePoidsVersion95-1" uid="EcrouSerragePoidsVersion95-1" entityUid="EcrouSerragePoidsVersion95*:*Défaut">
+<Transform>
+<Rotation>0.99999196516149169 -2.3314683517128287e-015 0.004008692113110608 2.3313467793298785e-015 1 -1.3013497131435044e-016 -0.004008692113110608 1.3955987083776813e-016 0.99999196516149169</Rotation>
+<Translation>0.12149999999999983 0.15330704079488011 -0.027999999999999976</Translation>
+</Transform>
+</Instance>
+<Instance name="AxeArticulation-1" uid="AxeArticulation-1" entityUid="AxeArticulation*:*Défaut">
+<Transform>
+<Rotation>0.98950424738465537 -0.14450378682832937 0 0.14450378682832937 0.98950424738465537 0 0 0 1</Rotation>
+<Translation>0.1215 -0.020499999999999994 -0.057999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="AxeArticulation-2" uid="AxeArticulation-2" entityUid="AxeArticulation*:*Défaut">
+<Transform>
+<Rotation>-0.99986088755863278 0.01667949431076432 3.7645974601530979e-016 0.01667949431076432 0.99986088755863278 -2.4087148837544917e-016 -3.8042499040094907e-016 -2.3455882196275143e-016 -1</Rotation>
+<Translation>0.12150000000000002 -0.020499999999999994 0.0020000000000000018</Translation>
+</Transform>
+</Instance>
+<Instance name="Poids-3" uid="Poids-3" entityUid="Poids*:*Défaut">
+<Transform>
+<Rotation>0.91008395505461759 -2.6090241078691179e-015 0.41442393120106491 2.4299223392621443e-015 1 8.8802313664344024e-016 -0.41442393120106491 1.9663913479428e-016 0.91008395505461759</Rotation>
+<Translation>0.12149999999999991 0.13549999999999998 -0.028000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="VisChcM4-1" uid="VisChcM4-1" entityUid="VisChcM4*:*Défaut">
+<Transform>
+<Rotation>-0.22890552859998359 -0.97344864218733296 0 -0.97344864218733274 0.22890552859998364 0 0 0 -1</Rotation>
+<Translation>0.11991045834488839 -0.0096154532787687819 -0.060999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="VisChcM4-2" uid="VisChcM4-2" entityUid="VisChcM4*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.12168347443741845 -0.0095015302368550297 0.0050000000000000044</Translation>
+</Transform>
+</Instance>
+<Instance name="EquerreReperage-1" uid="EquerreReperage-1" entityUid="EquerreReperage*:*Défaut">
+<Transform>
+<Rotation>0 3.4416913763379853e-015 -0.99999999999999978 0 1 3.4972025275692431e-015 1 -3.0883498883249594e-016 0</Rotation>
+<Translation>0.10350000000000002 0.10350000000000004 -0.070000000000000007</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.3411764705882353" g="0.3411764705882353" b="0.3411764705882353" a="1"/>
+<Diffuse r="0.3411764705882353" g="0.3411764705882353" b="0.3411764705882353" a="1"/>
+<Specular r="0.3411764705882353" g="0.3411764705882353" b="0.3411764705882353" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="VisChcM4-3" uid="VisChcM4-3" entityUid="VisChcM4*:*Défaut">
+<Transform>
+<Rotation>-1.209125858359021e-015 3.279322946811769e-015 -1 -0.32500696602090606 0.94571162202750036 3.6082248300317588e-015 0.94571162202750025 0.32500696602090617 0</Rotation>
+<Translation>0.10349999999999998 0.093500000000000055 -0.053499999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="VisChcM4-4" uid="VisChcM4-4" entityUid="VisChcM4*:*Défaut">
+<Transform>
+<Rotation>-7.3673143794839069e-016 3.4991319732639753e-015 -1 -0.15055934038302041 0.98860097361039956 3.5701670748969881e-015 0.98860097361039945 0.15055934038302041 -2.0150641503740793e-016</Rotation>
+<Translation>0.10349999999999998 0.093500000000000055 -0.0025000000000000022</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Ecrou a billes-1" uid="Ecrou a billes-1" entityUid="Ecrou a billes" rigid="true">
+<Transform>
+<Rotation>-7.7362873261561924e-016 0.19797534756258836 -0.98020699944321599 1.0961665570925131e-016 0.98020699944321599 0.19797534756258836 1 0 -7.8001769419290154e-016</Rotation>
+<Translation>0.0092001917264079754 0.048500457342694071 0.052203690308249347</Translation>
+</Transform>
+<Instance name="SupportEcrou-1" uid="SupportEcrou-1" grounded="true" entityUid="SupportEcrou*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BagueIna12-1" uid="BagueIna12-1" entityUid="BagueIna12*:*Défaut">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.019999999999999997 0 0.018000000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="BagueIna12-2" uid="BagueIna12-2" entityUid="BagueIna12*:*Défaut">
+<Transform>
+<Rotation>-1.1045309632196096e-016 0 1 -0.23792294856899521 0.97128403185897982 0 -0.97128403185897982 -0.23792294856899521 0</Rotation>
+<Translation>-0.020000000000000004 0 0.018000000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="EcrouBille-1" uid="EcrouBille-1" entityUid="EcrouBille*:*Défaut">
+<Transform>
+<Rotation>0.74840035841888986 0.6632472416214612 0 -0.66324724162146143 0.74840035841889008 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0.025000000000000019</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Stator Moteur Support-1" uid="Stator Moteur Support-1" entityUid="Stator Moteur Support" rigid="true">
+<Transform>
+<Rotation>0.98020699944321588 0.16016542064541972 0.1163669896147666 -0.19797534756258783 0.79300412055483083 0.57615121846658601 7.5917883798082833e-016 -0.58778525229248046 0.8090169943749419</Rotation>
+<Translation>-0.11792891794465507 0.074177104914838865 0.052203690308249263</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.65490196078431373" g="0.70980392156862748" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.65490196078431373" g="0.70980392156862748" b="0.72941176470588232" a="1"/>
+<Specular r="0.65490196078431373" g="0.70980392156862748" b="0.72941176470588232" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Instance name="SupprotVisBille-1" uid="SupprotVisBille-1" grounded="true" entityUid="SupprotVisBille*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.71372549019607845" g="0.78431372549019607" b="0.82745098039215681" a="1"/>
+<Diffuse r="0.71372549019607845" g="0.78431372549019607" b="0.82745098039215681" a="1"/>
+<Specular r="0.71372549019607845" g="0.78431372549019607" b="0.82745098039215681" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="StatorMoteur-1" uid="StatorMoteur-1" entityUid="StatorMoteur*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 -0.44092022652325841 -0.8975462962113312 0 0.89754629621133108 -0.44092022652325841</Rotation>
+<Translation>-0.049999999999999989 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BrideMoteur-1" uid="BrideMoteur-1" entityUid="BrideMoteur*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 0.16245238966579864 0.98671638330974898 0 -0.98671638330974898 0.16245238966579864</Rotation>
+<Translation>-0.046999999999999986 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.30196078431372547" g="0.42352941176470588" b="0.46666666666666667" a="1"/>
+<Diffuse r="0.30196078431372547" g="0.42352941176470588" b="0.46666666666666667" a="1"/>
+<Specular r="0.30196078431372547" g="0.42352941176470588" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="BagueExtRoulement-1" uid="BagueExtRoulement-1" entityUid="BagueExtRoulement*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0020000000000000018 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="EcrouSupportVisBille-1" uid="EcrouSupportVisBille-1" entityUid="EcrouSupportVisBille*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.012000000000000011 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.44313725490196076" b="0.47843137254901957" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.44313725490196076" b="0.47843137254901957" a="1"/>
+<Specular r="0.32156862745098036" g="0.44313725490196076" b="0.47843137254901957" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="Assem vis-1" uid="Assem vis-1" entityUid="Assem vis" rigid="true">
+<Transform>
+<Rotation>0.9802069994432151 0.18405912810489469 -0.072914166002189806 -0.19797534756259155 0.91130561406285304 -0.36100947291587421 2.9872944385812093e-015 0.36829921957396572 0.92970731139493978</Rotation>
+<Translation>-0.10300030505657903 0.071161928195202909 0.052203690308248868</Translation>
+</Transform>
+<Instance name="VisBille-1" uid="VisBille-1" grounded="true" entityUid="VisBille*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.83137254901960778" g="0.83137254901960778" b="0.83137254901960778" a="1"/>
+<Diffuse r="0.83137254901960778" g="0.83137254901960778" b="0.83137254901960778" a="1"/>
+<Specular r="0.83137254901960778" g="0.83137254901960778" b="0.83137254901960778" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Accoupl6-1" uid="Accoupl6-1" entityUid="Accoupl6*:*Défaut">
+<Transform>
+<Rotation>1 0 2.3073073063619894e-016 0 0.97149149964625314 -0.23707438941200337 -2.368572270486676e-016 0.23707438941200321 0.97149149964625292</Rotation>
+<Translation>-0.031 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RotorMoteur-1" uid="RotorMoteur-1" entityUid="RotorMoteur*:*Défaut">
+<Transform>
+<Rotation>1 -2.1663534052104929e-016 0 0 -0.3611171264381372 0.93252046679580336 -2.2800137068604068e-016 -0.93252046679580314 -0.3611171264381372</Rotation>
+<Translation>-0.073230061503903043 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RondelleVisBille-1" uid="RondelleVisBille-1" entityUid="RondelleVisBille*:*Défaut">
+<Transform>
+<Rotation>1 -3.85353340447324e-015 -1.5687926799240569e-015 2.4409937583848692e-015 0.23804010969680839 0.97125532491489142 -3.3693292572113728e-015 -0.97125532491489142 0.23804010969680839</Rotation>
+<Translation>0.16599999999999998 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="VisFhcM6-1" uid="VisFhcM6-1" entityUid="VisFhcM6*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1730000000000001 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0" g="0.50196078431372548" b="0.25098039215686274" a="1"/>
+<Diffuse r="0" g="0.50196078431372548" b="0.25098039215686274" a="1"/>
+<Specular r="0" g="0.50196078431372548" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="BagueVisBille-1" uid="BagueVisBille-1" entityUid="BagueVisBille*:*Défaut">
+<Transform>
+<Rotation>-1 0 0 0 0.019226878217742827 0.99981514649159031 0 0.99981514649159009 -0.019226878217742827</Rotation>
+<Translation>-0.014999999999999986 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BagueIntRoulement-1" uid="BagueIntRoulement-1" entityUid="BagueIntRoulement*:*Défaut">
+<Transform>
+<Rotation>0.99999999999999989 0 -9.5957309391215664e-016 -9.504003991636364e-016 0.10827402734310312 -0.99412108669060262 0 0.99412108669060273 0.1082740273431031</Rotation>
+<Translation>-0.015999999999999959 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RondelleM6-1" uid="RondelleM6-1" entityUid="RondelleM6*:*Défaut">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0019999999999999879 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="EcrouM6-1" uid="EcrouM6-1" entityUid="EcrouM6*:*Défaut">
+<Transform>
+<Rotation>0 1 0 -0.99999999999999989 0 1.1102230246251565e-016 1.1102230246251565e-016 0 0.99999999999999989</Rotation>
+<Translation>-0.017999999999999988 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Coaxial1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bati Maxpid-1</Uid>
+<Uid>AxeBras-1</Uid>
+</InstancePath>
+<Position>-0.094 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem bras-1</Uid>
+<Uid>Bras-1</Uid>
+</InstancePath>
+<Position>0.12150000000000001 -0.10050000000000002 -0.057999999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bati Maxpid-1</Uid>
+<Uid>BagueIna30-2</Uid>
+</InstancePath>
+<Position>0.019999999999999997 -0.020000000000000004 -0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem bras-1</Uid>
+<Uid>Bras-1</Uid>
+</InstancePath>
+<Position>0.10150000000000001 -0.080499999999999988 -0.057999999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxial2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem bras-1</Uid>
+<Uid>AxeArticulation-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ecrou a billes-1</Uid>
+<Uid>BagueIna12-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem bras-1</Uid>
+<Uid>Bras-1</Uid>
+</InstancePath>
+<Position>0.13950000000000001 -0.0025000000000000092 -0.0069999999999999923</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ecrou a billes-1</Uid>
+<Uid>BagueIna12-1</Uid>
+</InstancePath>
+<Position>0.010000000000000005 -0.010000000000000009 -0.00099999999999998701</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxial3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stator Moteur Support-1</Uid>
+<Uid>StatorMoteur-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem vis-1</Uid>
+<Uid>RotorMoteur-1</Uid>
+</InstancePath>
+<Position>-0.055999999999999966 0 0</Position>
+<Axis>1.0000000000000002 0 -3.6723259644840146e-016</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stator Moteur Support-1</Uid>
+<Uid>StatorMoteur-1</Uid>
+</InstancePath>
+<Position>-0.0080000000000000071 -0.016761626960009011 0.0026547809049897175</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem vis-1</Uid>
+<Uid>RotorMoteur-1</Uid>
+</InstancePath>
+<Position>0 -0.010000000000000002 -0.010000000000000016</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxial4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bati Maxpid-1</Uid>
+<Uid>AxeArticulation-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stator Moteur Support-1</Uid>
+<Uid>SupprotVisBille-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000018 -0.013520712029766985 0.018606191183955983</Position>
+<Axis>1.9135753305502623e-016 0.58778525229248246 -0.80901699437494046</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Coaxiale1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ecrou a billes-1</Uid>
+<Uid>EcrouBille-1</Uid>
+</InstancePath>
+<Position>0 0 -0.024999999999999984</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem vis-1</Uid>
+<Uid>RondelleVisBille-1</Uid>
+</InstancePath>
+<Position>0.0090000000000000011 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Bati Maxpid" uid="Bati Maxpid" version="354">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Bati Maxpid.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem bras" uid="Assem bras" version="358">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem bras.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Ecrou a billes" uid="Ecrou a billes" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Ecrou a billes.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Stator Moteur Support" uid="Stator Moteur Support" version="296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Stator Moteur Support.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem vis" uid="Assem vis" version="394">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem vis.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Accoupl6" uid="Accoupl6*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Accoupl6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0056096059033133557</Mass>
+<CenterOfMass>-0.010914959484771275 -1.3517034619366059e-006 1.5391063193635408e-006</CenterOfMass>
+<Inertia>3.00425811196203e-007 3.6844202547490985e-007 3.727348853720351e-007 -4.8242925994864645e-009 -2.0710062921286907e-008 1.3579875661979937e-008</Inertia>
+</MassProperties>
+<GeometryFile name="Accoupl6_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AxeArticulation" uid="AxeArticulation*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AxeArticulation.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0036367861956118843</Mass>
+<CenterOfMass>0 -0.00011402656300615596 0.0021307319223985884</CenterOfMass>
+<Inertia>2.1708338041104237e-007 2.2169225864572504e-007 2.5924252261846749e-007 -1.505629056962098e-009 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="AxeArticulation_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AxeBras" uid="AxeBras*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AxeBras.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.065992676097002712</Mass>
+<CenterOfMass>-0.048219059130186585 0 0</CenterOfMass>
+<Inertia>7.4534196241053452e-006 5.1914505440532213e-005 5.1839580222850827e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="AxeBras_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AxePoidsVersion95" uid="AxePoidsVersion95*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AxePoidsVersion95.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.096685500729314755</Mass>
+<CenterOfMass>-0.0041541055520205507 0.0094534863101010339 -2.6439442480407888e-009</CenterOfMass>
+<Inertia>9.3232729776424422e-005 3.2430818156674595e-006 9.3233281036376726e-005 7.9083095888698858e-011 2.1129534964956041e-010 -7.6885839968738836e-010</Inertia>
+</MassProperties>
+<GeometryFile name="AxePoidsVersion95_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BagueExtRoulement" uid="BagueExtRoulement*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BagueExtRoulement.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0038510450768364092</Mass>
+<CenterOfMass>0.0070000319510488433 -8.0599678600116997e-008 1.1093594041884268e-007</CenterOfMass>
+<Inertia>6.9336925634395157e-007 4.1405877280178385e-007 4.1405877282416023e-007 0 2.6350463662162988e-012 -1.9144732483385563e-012</Inertia>
+</MassProperties>
+<GeometryFile name="BagueExtRoulement_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BagueIna12" uid="BagueIna12*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BagueIna12.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00048694686130641777</Mass>
+<CenterOfMass>0 0 0.0018483870967741936</CenterOfMass>
+<Inertia>1.598396400576498e-008 1.598396400576498e-008 2.5822320816181298e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BagueIna12_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.56470588235294117" g="0.40470588235294119" b="0.070588235294117646" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BagueIna30" uid="BagueIna30*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BagueIna30.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0041154863762026296</Mass>
+<CenterOfMass>0 0 0.0052290076335877907</CenterOfMass>
+<Inertia>6.7448569364454574e-007 6.7448569364454564e-007 1.1187054359800583e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BagueIna30_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BagueIntRoulement" uid="BagueIntRoulement*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BagueIntRoulement.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0019411563965617933</Mass>
+<CenterOfMass>0.0069999999999999923 0 0</CenterOfMass>
+<Inertia>9.3642343720836658e-008 8.173887236978756e-008 8.1738872369787533e-008 0 -9.3359379383134e-014 6.7829559518415554e-014</Inertia>
+</MassProperties>
+<GeometryFile name="BagueIntRoulement_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BagueVisBille" uid="BagueVisBille*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BagueVisBille.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0081436443306171329</Mass>
+<CenterOfMass>-0.0032639947954490743 0 0</CenterOfMass>
+<Inertia>1.8941217777693307e-007 2.867344881574639e-007 2.8673448815746396e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BagueVisBille_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.56470588235294117" g="0.40470588235294119" b="0.070588235294117646" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bras" uid="Bras*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bras.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.9011079992471549</Mass>
+<CenterOfMass>0.12152268202090545 -0.0049691295149011487 -0.027999999999999556</CenterOfMass>
+<Inertia>0.0058594002983757094 0.00049564724839479583 0.005534399949347347 0 0 -2.012605661650197e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Bras_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.81960784313725488" g="0.76078431372549016" b="0.4392156862745098" a="1"/>
+<Diffuse r="0.81960784313725488" g="0.76078431372549016" b="0.4392156862745098" a="1"/>
+<Specular r="0.49176470588235288" g="0.45647058823529407" b="0.26352941176470585" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BrideMoteur" uid="BrideMoteur*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BrideMoteur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0072375749754014819</Mass>
+<CenterOfMass>-0.00075805962995788593 0 0</CenterOfMass>
+<Inertia>2.0200946460825639e-006 1.0328876994622069e-006 1.0221175830303963e-006 1.6573505017822765e-008 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BrideMoteur_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chaise" uid="Chaise*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chaise.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.63330866132065655</Mass>
+<CenterOfMass>-0.036098942755399099 -0.023213282269439962 0.0034449046384098137</CenterOfMass>
+<Inertia>0.0012386670399484538 0.0013481802068058498 0.0015487516217435767 -4.9859609267308891e-005 -7.8757870903878966e-005 0.00025148102725885036</Inertia>
+</MassProperties>
+<GeometryFile name="Chaise_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EcrouBille" uid="EcrouBille*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EcrouBille.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095310800313889013</Mass>
+<CenterOfMass>0 0 -0.0093548026805658959</CenterOfMass>
+<Inertia>1.3315078709496442e-005 1.3315078709496442e-005 9.194795424324594e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="EcrouBille_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.56470588235294117" g="0.40470588235294119" b="0.070588235294117646" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EcrouM6" uid="EcrouM6*:*Défaut" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EcrouM6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00032436540679646128</Mass>
+<CenterOfMass>6.6017426300574589e-008 -0.0025001780719836925 1.1392574116366401e-007</CenterOfMass>
+<Inertia>3.8279414915607146e-009 6.3182841724248593e-009 3.8277671245895813e-009 8.2099512828268671e-016 -9.5924696752914101e-014 0</Inertia>
+</MassProperties>
+<GeometryFile name="EcrouM6_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EcrouSerragePoidsVersion95" uid="EcrouSerragePoidsVersion95*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EcrouSerragePoidsVersion95.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011915826288096164</Mass>
+<CenterOfMass>3.6591475952271751e-008 -0.0029997024398795646 2.6109734489698905e-008</CenterOfMass>
+<Inertia>4.4097243109792764e-008 8.1206985228529773e-008 4.4103727646083478e-008 -9.7831064797223505e-015 -4.0511661691424273e-013 8.2961530731377491e-014</Inertia>
+</MassProperties>
+<GeometryFile name="EcrouSerragePoidsVersion95_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EcrouSupportVisBille" uid="EcrouSupportVisBille*:*Défaut" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EcrouSupportVisBille.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010448937165840137</Mass>
+<CenterOfMass>-0.0023331328923633012 0 0</CenterOfMass>
+<Inertia>4.4530900908984699e-006 2.4304273571172447e-006 2.4304273571172451e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="EcrouSupportVisBille_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EquerreReperage" uid="EquerreReperage*:*Défaut" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EquerreReperage.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060891163787629692</Mass>
+<CenterOfMass>0.019327887190717204 -0.010191107066430515 -0.00032701801755483637</CenterOfMass>
+<Inertia>2.7653523830579499e-007 4.9050369949711773e-006 5.0223555456913936e-006 8.6610813542951627e-009 2.7018280182388306e-007 -4.4019297337255053e-008</Inertia>
+</MassProperties>
+<GeometryFile name="EquerreReperage_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Poids" uid="Poids*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Poids.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23324358540409745</Mass>
+<CenterOfMass>-0.0020536539050800408 -0.005999999999999962 0</CenterOfMass>
+<Inertia>0.0001615932918969379 0.00030075369148604492 0.00014475824563880532 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Poids_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RondelleM6" uid="RondelleM6*:*Défaut" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RondelleM6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00025132741228718343</Mass>
+<CenterOfMass>0 0 -0.0010000000000000002</CenterOfMass>
+<Inertia>3.7280232822598871e-009 3.7280232822598887e-009 7.2884949563283199e-009 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RondelleM6_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RondelleVisBille" uid="RondelleVisBille*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RondelleVisBille.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.094486107786287465</Mass>
+<CenterOfMass>0.0049618277776521452 9.9812415306071481e-006 -1.3780904347995831e-005</CenterOfMass>
+<Inertia>1.9296926667393023e-005 1.0410192159348931e-005 1.0419966354334738e-005 -1.4890620526848439e-008 4.9704193548926164e-011 -3.5999782411498963e-011</Inertia>
+</MassProperties>
+<GeometryFile name="RondelleVisBille_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RotorMoteur" uid="RotorMoteur*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RotorMoteur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14047189214281136</Mass>
+<CenterOfMass>-0.026298256378060617 0 0</CenterOfMass>
+<Inertia>6.7604036286749249e-006 4.8402148666048928e-005 4.8402148666048928e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RotorMoteur_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="StatorMoteur" uid="StatorMoteur*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="StatorMoteur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046775958417462925</Mass>
+<CenterOfMass>-0.040071570092516245 0 0</CenterOfMass>
+<Inertia>8.8878119375048988e-006 3.4005816311117481e-005 3.4005816311117481e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="StatorMoteur_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.54117647058823526" g="0.61960784313725492" b="0.63529411764705879" a="1"/>
+<Diffuse r="0.54117647058823526" g="0.61960784313725492" b="0.63529411764705879" a="1"/>
+<Specular r="0.32470588235294112" g="0.37176470588235294" b="0.38117647058823528" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SupportEcrou" uid="SupportEcrou*:*Défaut" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SupportEcrou.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.035312116187330822</Mass>
+<CenterOfMass>-4.5936359369542891e-009 -3.2612632857841787e-010 0.018844073257720539</CenterOfMass>
+<Inertia>1.045895175480624e-005 8.879404070018233e-006 1.119668149580374e-005 1.7202030761882814e-013 -1.1282580246843683e-012 1.4318296276640498e-012</Inertia>
+</MassProperties>
+<GeometryFile name="SupportEcrou_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.95686274509803915" g="0.7803921568627451" b="0.40784313725490196" a="1"/>
+<Diffuse r="0.95686274509803915" g="0.7803921568627451" b="0.40784313725490196" a="1"/>
+<Specular r="0.57411764705882351" g="0.46823529411764703" b="0.24470588235294116" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SupprotVisBille" uid="SupprotVisBille*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SupprotVisBille.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.065858964727791208</Mass>
+<CenterOfMass>-0.021219204181038745 9.0724322775499958e-008 6.9647184094116459e-008</CenterOfMass>
+<Inertia>2.5288316413205945e-005 2.845639869886731e-005 2.9096770221577124e-005 -9.8558179877514163e-007 -1.1505462754503571e-011 -1.0726056129042532e-011</Inertia>
+</MassProperties>
+<GeometryFile name="SupprotVisBille_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="VisBille" uid="VisBille*:*Défaut" version="249">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="VisBille.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12185530810233065</Mass>
+<CenterOfMass>0.073290338908919742 -4.5653597199413079e-007 1.9913966232942917e-006</CenterOfMass>
+<Inertia>1.7937838970229226e-006 0.00032440069130571707 0.00032439875698641219 1.6459703502486296e-008 7.6583730107594485e-008 5.2933653547764492e-010</Inertia>
+</MassProperties>
+<GeometryFile name="VisBille_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="VisChcM4" uid="VisChcM4*:*Défaut" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="VisChcM4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0001913087125687861</Mass>
+<CenterOfMass>1.7482716988745046e-007 3.2099175360591674e-008 -0.0013211998133732604</CenterOfMass>
+<Inertia>2.318900951955138e-009 2.3194992151932844e-009 8.512528110533429e-010 -1.9338700142885615e-014 -1.0774030341030306e-013 -2.3956480256821218e-014</Inertia>
+</MassProperties>
+<GeometryFile name="VisChcM4_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="VisFhcM6" uid="VisFhcM6*:*Défaut" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="VisFhcM6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00079381889668023772</Mass>
+<CenterOfMass>-0.0081180211458661278 0 0</CenterOfMass>
+<Inertia>4.9054987146695966e-009 4.9092019899740787e-008 4.9157765843480839e-008 -1.011726042672583e-010 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="VisFhcM6_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
